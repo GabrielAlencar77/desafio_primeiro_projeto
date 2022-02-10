@@ -13,7 +13,7 @@ public class Main08 {
 		
 	if (salario <= 2000) {
 		ir = 0;
-		System.out.println("Isento de pagar");	
+		System.out.println("Isento");	
 	}
 	
 	else if (salario - 2000 <= 1000) {
