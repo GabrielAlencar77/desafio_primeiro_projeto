@@ -11,23 +11,23 @@ public class Main08 {
 	double salario = sc.nextDouble();
 	double ir;
 		
-	if (salario <= 2000) {
+	if (salario <= 1500) {
 		ir = 0;
 		System.out.println("Isento");	
 	}
 	
-	else if (salario - 2000 <= 1000) {
-		ir = (salario - 2000) * 0.08;
+	else if (salario - 1500 <= 1000) {
+		ir = (salario - 1500) * 0.08;
 		System.out.printf("R$ %.2f%n", ir);
 	}
 	
-	else if (salario - 2000 <= 2500) {
+	else if (salario - 1500 <= 2500) {
 		ir = ((salario - 3000) * 0.18) + 1000 * 0.08;
 		System.out.printf("R$ %.2f%n", ir);
 	}
 	
 	else {
-		ir = ((salario - 4500) * 0.28) + 1500 * 0.18 + 1000 * 0.08;
+		ir = ((salario - 3500) * 0.28) + 1000 * 0.18 + 500 * 0.08;
 		System.out.printf("R$ %.2f%n", ir);
 	}
 		
